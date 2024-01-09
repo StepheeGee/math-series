@@ -2,6 +2,8 @@
 
 ## Project: Math-Series
 
+1/9/24
+
 **Author:** Stephanie G. Johnson
 
 ### Links and Resources
