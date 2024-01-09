@@ -22,6 +22,7 @@ def fibonacci(n):
         >>> fibonacci(-3)
         None
     """
+    
     if n <= 0:
         return None
     if n == 1:
@@ -30,6 +31,8 @@ def fibonacci(n):
         return 1
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
+
+
 
 def lucas(n):
     """Calculate the nth value in the Lucas number sequence.

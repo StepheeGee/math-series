@@ -8,14 +8,15 @@
 
 ### Links and Resources
 
-- [Code](series.py)
+- [Code](series/series/series.py)
+- [Test Code](series/tests/test_series.py)
 
 ### Setup
 
 #### I. Environment Requirements
 
-- `PORT` - Port Number
-- `DATABASE_URL` - URL to the running Postgres instance/db
+- Virtual Environment: Create and activate a virtual environment using commands like 'python -m venv .venv'. (I'm using a mac.)
+
 
 #### II. Initialization/Running the Application
 
@@ -27,7 +28,11 @@ python app.py
 
 #### III. How to use your library (where applicable)
 
-There's no specific library usage for this application.
+1. Install the library:
+pip3 install pytest
+
+2. Import the library:
+import pytest
 
 #### IV. Tests
 
